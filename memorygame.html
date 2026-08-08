@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="memorygame.css">
+    <script src="memorygame.js" defer></script>
+</head>
+
+<body>
+
+    <h3>Memory Game</h3>
+
+    <!-- Game controls -->
+
+    <div class="game-controls">
+
+        <button id="start">
+            Start
+        </button>
+
+        <div id="timer"></div>
+    </div>
+
+
+    <!-- Main game -->
+
+    <div class="game-layout">
+
+
+        <!-- Casino table -->
+        <div class="table-wrapper">
+
+            <div id="table">
+                <div id="start-message">
+                    <p>Ready to Play?</p>
+                    <small>Press Start to begin the game</small>
+                </div>
+            </div>
+
+            <div id="end"></div>
+        </div>
+
+        <!-- Game information -->
+        <div class="game-info">
+
+            <div id="selectedCards"></div>
+
+            <div id="pairs"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
